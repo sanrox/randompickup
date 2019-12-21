@@ -26,7 +26,8 @@ if count==1:
          " 2 = dirty\n"
          " 3 = funny\n"
          " 4 = sweet\n"
-         " 5 = newyear")
+         " 5 = newyear"
+	 " 6 = tinder")
 
 else:
 	 	
