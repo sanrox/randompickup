@@ -15,8 +15,10 @@ def getfilename(num):
 		name="newyear.txt"
 	elif num=='6':
 		name="tinder.txt"
+	elif num=='7':
+		name="misc.csv"
 	else:
-		print("use a number between 1-6")
+		print("use a number between 1-7")
 	return name
 
 count=len(sys.argv)
@@ -26,14 +28,17 @@ if count==1:
          " 2 = dirty\n"
          " 3 = funny\n"
          " 4 = sweet\n"
-         " 5 = newyear"
-	 " 6 = tinder")
+         " 5 = newyear\n"
+	 " 6 = tinder\n"
+	 " 7 = misc\n\n"
+	 "usage: python pickup.py [1-6]\n" )
 
 else:
 	 	
 	filename= getfilename(sys.argv[1])
 	lines = open(filename).read().splitlines()
 	i = 1
+	print("")
 	while i < 6:
 		print(random.choice(lines))
 		print("\n")
