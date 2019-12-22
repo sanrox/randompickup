@@ -12,4 +12,6 @@ usage
  4 = sweet
  5 = newyear
  6 = tinder
+ 7 = animals
+ 8 = misc
 
