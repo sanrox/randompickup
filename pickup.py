@@ -16,6 +16,8 @@ def getfilename(num):
 	elif num=='6':
 		name="tinder.txt"
 	elif num=='7':
+		name="animals.txt"
+	elif num=='8':
 		name="misc.csv"
 	else:
 		print("use a number between 1-7")
@@ -30,8 +32,9 @@ if count==1:
          " 4 = sweet\n"
          " 5 = newyear\n"
 	 " 6 = tinder\n"
-	 " 7 = misc\n\n"
-	 "usage: python pickup.py [1-6]\n" )
+	 " 7 = animals\n"
+	 " 8 = misc\n\n"
+	 "usage: python pickup.py [1-8]\n" )
 
 else:
 	 	
